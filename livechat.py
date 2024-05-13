@@ -1,5 +1,5 @@
 # PASSO A PASSO
-# lIVECHAT
+# Criação do LiveChat By: Roger para usar em Projeto da empresa
 # botao de iniciar chat
 # DIV para entrar no chat
 # Quando entrar no chat: (aparece para todo mundo)
@@ -13,7 +13,7 @@
 import flet as ft
 
 def main(pagina):
-    texto = ft.Text("LiveChat")
+    texto = ft.Text("LiveChat By: Roger")
 
     chat = ft.Column()
 
@@ -66,7 +66,7 @@ def main(pagina):
     popup = ft.AlertDialog(
         open=False, 
         modal=True,
-        title=ft.Text("Bem vindo ao Hashzap"),
+        title=ft.Text("Bem vindo ao LiveChat By: Roger"),
         content=nome_usuario,
         actions=[ft.ElevatedButton("Entrar", on_click=entrar_popup)],
         )
