@@ -91,4 +91,4 @@ ft.app(target=main, view=ft.WEB_BROWSER, port=8000)
 # o código ficará assim: (main, view = ...)
 # Caso voce queira visualizar na web ficaria assim: ft.app(target=main, view=ft.WEB_BROWSER, port=8000)
 # Ou, ft.app(main) = para rodar como uma aplicação
-# REALIZAR DEPLOY
+# proximo passo é REALIZAR  o DEPLOY
