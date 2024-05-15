@@ -81,7 +81,7 @@ def main(pagina):
     pagina.add(texto)
     pagina.add(botao_iniciar)
 
-ft.app(main)
+ft.app(main, view=ft.WEB_BROWSER)
 
 
 # RODAR A SISTEMA
@@ -89,6 +89,6 @@ ft.app(main)
 # Caso queira rodar a aplicação de uma forma diferente de uma janela por ex. 
 # Pode-se colocar um paramentro dentro do (main) que é o "view", ou seja,
 # o código ficará assim: (main, view = ...)
-# Caso voce queira visualizar na web ficaria assim: ft.app(target=main, view=ft.WEB_BROWSER)
+# Caso voce queira visualizar na web ficaria assim: ft.app(main, view=ft.WEB_BROWSER)
 # Ou, ft.app(main) = para rodar como uma aplicação
 # proximo passo é REALIZAR  o DEPLOY
